@@ -48,7 +48,7 @@
 .btn[aria-label]{
     position: relative;
 
-    
+
     /*Para fazer a borda em degrade*/
     &::before{
         content: "";

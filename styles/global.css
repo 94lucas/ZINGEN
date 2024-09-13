@@ -79,6 +79,19 @@ a{
     color: inherit;
 }
 
+a:hover{
+    background: linear-gradient(
+        90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%
+    );
+
+    /*
+    * Tem que repetir o background-clip igual abaixo
+    */
+    -webkit-backgroud-clip:text;
+    background-clip: text;
+    color: transparent;
+}
+
 ul[role="list"]{
     list-style: none;
 }
