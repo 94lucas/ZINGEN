@@ -87,8 +87,8 @@ a:hover{
     /*
     * Tem que repetir o background-clip igual abaixo
     */
-    -webkit-backgroud-clip:text;
-    background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text ;
     color: transparent;
 }
 
