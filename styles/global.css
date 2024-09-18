@@ -51,6 +51,9 @@ html{
 
     /*Significa que nao tem transboradamento na horizontal*/
     overflow-x: hidden;
+
+    /*Para poder ter uma scrolagem mais suava*/
+    scroll-behavior: smooth;
 }
 
 body{
