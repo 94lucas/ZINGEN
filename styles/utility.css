@@ -17,7 +17,7 @@
     padding-inline: var(--px-lg);
 }
 
-.container{
+.container {
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
@@ -55,7 +55,7 @@
 }
 
 @media(width >= 80em){
-    .container{
+    .container {
         --max-width: 80rem;
     }
 
@@ -69,6 +69,6 @@
         grid-auto-flow: column;
 
         /*Cada coluna vai se encaixar por igual*/
-        grid-template-columns: 1fr;
+        grid-auto-columns: 1fr;
     }
 }

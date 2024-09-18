@@ -62,6 +62,8 @@ h1,h2,h3{
 
 }
 
+
+
 h1{
     font-size: var(--fs-2xl);
 }
@@ -94,6 +96,11 @@ a:hover{
 
 ul[role="list"]{
     list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
 }
 
 @media(width >= 80em){

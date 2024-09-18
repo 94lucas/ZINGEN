@@ -62,7 +62,7 @@
         /*Quando eu faço o inset 0 quer dizer que eu tenho todo o meu botão
         na cor do background aqui --bg-color. Contudo, se eu usar o 0.5 eu crio uma bordinha 
         */
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--bg-color);
     }
     &::after{
