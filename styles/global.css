@@ -58,6 +58,8 @@ html{
 
 body{
     background-color: var(--bg-color);
+    overflow-x: hidden;
+
 }
 /*Como eu resetei todas as fontes das tags, devo fazer isso*/
 h1,h2,h3{
